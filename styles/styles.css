@@ -71,12 +71,7 @@ body {
   max-width: 100%;
 }
 
-.img_btn {
-    position:absolute;
-      top: 10px;
-      left: 10px;
-      z-index: 2;
-}
+
 
 #btn9 {
   border: none;
@@ -105,6 +100,8 @@ body {
   }
   
   .box {
+    position: relative;
+    overflow: hidden;
     content: "\200B";
     box-sizing: border-box;
     background: linear-gradient(#8b8b8b, #5e5e5e, #5e5e5e);
@@ -117,9 +114,10 @@ body {
     width: calc(100%/9);
     min-width: calc(100%/9);
   }
-  .box img {
-    position: relative;
-    z-index: 1;
+ 
+.img_btn {
+  position: relative;
+  z-index: 1;
   opacity: .3;
   zoom: 2;
   display: block;
@@ -128,4 +126,37 @@ body {
   height: auto;
   max-height: 100%;
   max-width: min-content;
+}
+.btn-icon {
+    position: absolute;
+    
+    left: -35px;
+}
+
+.box1 .btn-icon {
+    top: 0;
+}
+.box2 .btn-icon {
+    top: -31px;
+}
+.box3 .btn-icon {
+    top: -60px;
+}
+.box4 .btn-icon {
+    top: -90px;
+}
+.box5 .btn-icon {
+    top: -120px;
+}
+.box6 .btn-icon {
+    top: -150px;
+}
+.box7 .btn-icon {
+    top: -180px;
+}
+.box8 .btn-icon {
+    top: -210px;
+}
+.box9 .btn-icon {
+    top: -240px;
 }
