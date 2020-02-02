@@ -1,4 +1,6 @@
 body {
+  width: 85%;
+  margin: auto;
   font: 1em sans-serif;
   background-color: darkgrey;
 }
@@ -8,20 +10,20 @@ body {
   width: 100%;
   height: 800px;
   background-image: url(../img/verse.jpg);
-  background-size: calc(100%*.6);
+  background-size: calc(100%*.95);
   background-position-x: calc(50%);
-  background-position-y: -174px;
+  background-position-y: -536px;
   background-repeat: no-repeat;
   background-color: darkgray;
 }
 
-.central-img {
+/* .central-img {
   display: block;
   width: 100%;
   height: 100%;
   background-image: url("../img/verse.jpg");
   opacity: .8;
-}
+} */
 
 .menu_navbar {
   display: flex;
@@ -159,4 +161,21 @@ body {
 }
 .box9 .btn-icon {
     top: -240px;
+}
+
+/*header*/
+
+.main-header{
+  position: relative;
+  left: 92px;
+}
+.sub-header{
+  position: relative;
+  top: -18px;
+}
+.watch-button{
+  position: relative;
+    display: block;
+    height: 31px;
+    overflow: hidden;
 }
