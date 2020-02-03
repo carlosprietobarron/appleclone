@@ -76,7 +76,6 @@ body {
 }
 
 .container {
-
   background: linear-gradient(#648880, #293f50);
   background: linear-gradient(#8b8b8b, #5e5e5e, #5e5e5e);
   width: 80%;
@@ -154,6 +153,7 @@ body {
 .box8 .btn-icon {
   top: -203px;
 }
+
 .box9 {
   position: relative;
   top: 10px;
@@ -161,6 +161,7 @@ body {
   height: 14px;
   overflow: hidden;
 }
+
 .box9 img {
   width: 100px;
 }
@@ -185,7 +186,6 @@ body {
   height: 31px;
   overflow: hidden;
 }
-
 
 /* promotions */
 
@@ -228,7 +228,7 @@ body {
 }
 
 .mainfooter {
-  display: grid;;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   right: 0;
   bottom: 0;
