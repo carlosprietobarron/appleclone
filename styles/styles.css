@@ -1,6 +1,4 @@
-  body {
-  /*  width: 100%;
-  min-width: 95%; */
+body {
   margin: auto;
   overflow-x: hidden;
   font: 1em sans-serif;
@@ -13,10 +11,8 @@
   display: block;
   width: 100%;
   min-width: 90%;
-  /* max-width: 1100px; */
   height: 700px;
   background-image: url(../img/verse.jpg);
-  /* background-size: cover; */
   background-position-x: calc(50%);
   background-position-y: -762px;
   background-repeat: no-repeat;
@@ -36,15 +32,12 @@
   border-style: solid;
   border-width: 1.2px;
   border-radius: 2px;
-  /* background: linear-gradient(#8b8b8b, #5e5e5e, #5e5e5e); */
 }
 
 .menu_button {
   position: relative;
   min-width: calc(100%/10);
   height: 100%;
-  /* background: linear-gradient(#8b8b8b, #5e5e5e, #5e5e5e); */
-  /* border-right: solid 1px black; */
 }
 
 .icon_container {
@@ -90,10 +83,6 @@
   min-width: 75%;
   margin: auto;
   margin-top: 60px;
-  /* border-style: solid; */
-  /* border-width: 5px; */
-  /* border-color: #0e0d5d; */
-  /* height: calc(100%/20); */
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -165,7 +154,7 @@
 .box8 .btn-icon {
   top: -203px;
 }
-.box9{
+.box9 {
   position: relative;
   top: 10px;
   display: block;
@@ -176,8 +165,7 @@
   width: 100px;
 }
 
-
-/*header*/
+/* header */
 
 .main-header {
   position: relative;
@@ -199,12 +187,11 @@
 }
 
 
-/*promotions*/
+/* promotions */
 
 .promos {
   position: relative;
   top: 197px;
-  /* width: 94%; */
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -256,45 +243,47 @@
   font-size: smaller;
 }
 
-.menu-footer_left{
+.menu-footer_left {
   margin: auto;
   padding-left: 160px;
   width: fit-content;
   font-size: x-small;
 }
 
-.menu-left{
+.menu-left {
   width: fit-content;
   list-style-type: none;
   margin-left: -37px;
   margin-top: 0;
   float: left;
 }
+
 .menu-left li {
   float: left;
   padding-left: 3px;
 }
 
-.copyright{
+.copyright {
   margin-top: 0;
   display: block;
   float: left;
 }
 
-.menu-footer-right{
+.menu-footer-right {
   margin: auto;
   margin-left: 0px;
   width: fit-content;
   font-size: x-small;
 }
 
-.menu-right{
+.menu-right {
   width: fit-content;
   list-style-type: none;
   margin-left: -37px;
   margin-top: 0;
   float: left;
 }
+
 .menu-right li {
   float: left;
   padding-left: 3px;
