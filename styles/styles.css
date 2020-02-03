@@ -1,31 +1,25 @@
 body {
-  width: 85%;
+ /*  width: 100%;
+  min-width: 95%; */
   margin: auto;
   font: 1em sans-serif;
-  background-color: darkgrey;
+  background-color: #fff;
 }
 
 #main_viewport {
   padding-top: 20px;
   display: block;
   width: 100%;
-  height: 800px;
+  min-width: 90%;
+  /* max-width: 1100px; */
+  height: 800px; 
   background-image: url(../img/verse.jpg);
-  background-size: calc(100%*.95);
+  /* background-size: cover; */
   background-position-x: calc(50%);
-  background-position-y: -645px;
+  background-position-y: -762px;
   background-repeat: no-repeat;
   background-color: white;
 }
-
-
-/* .central-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-image: url("../img/verse.jpg");
-  opacity: .8;
-} */
 
 .menu_navbar {
   display: flex;
@@ -175,9 +169,10 @@ body {
 
 /*header*/
 
-.main-header {
-  position: relative;
-  left: 92px;
+
+.main-header{
+  width: fit-content;
+  margin: auto;
 }
 
 .sub-header {
@@ -197,20 +192,34 @@ body {
 
 .promos {
   position: relative;
-  top: 65px;
-  width: 94%;
+  top: 255px;
+  /* width: 94%; */
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 10px;
+  grid-template-rows: 1fr;
+  
 }
 
 .promo {
-  box-sizing: border-box;
-  display: inline-block;
-  max-width: 30%;
-  background-color: thistle;
+  display: block;
 }
 .promo img{
-  max-width: 237px;
+  width: 100%;
+  object-fit: contain;
 }
+.promo1{
+  background-color: white;
+  min-height: 100%;
+}
+.promo2{
+  background-color: white;
+  min-height: 100%;
+}
+.promo3{
+  background-color: white;
+  min-height: 100%;
+}
+.promo4{
+  background-color: white;
+  min-height: 100%;
