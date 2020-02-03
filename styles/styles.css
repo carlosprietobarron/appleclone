@@ -24,7 +24,7 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   box-sizing: border-box;
-  width: calc((100%/5) *3);
+  width: calc((100%/5) * 3);
   min-width: 600px;
   height: fit-content;
   max-height: 30px;
@@ -98,10 +98,10 @@ body {
   padding: 0;
   margin: 0;
   border-right: #7b7777bd 1px solid;
-  height: calc(100% /1);
+  height: calc(100% / 1);
   min-height: 27px;
-  width: calc(100%/9);
-  min-width: calc(100% /9);
+  width: calc(100% / 9);
+  min-width: calc(100% / 9);
 }
 
 .img_btn {
