@@ -24,7 +24,7 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   box-sizing: border-box;
-  width: calc((100%/5)*3);
+  width: calc((100%/5) *3);
   min-width: 600px;
   height: fit-content;
   max-height: 30px;
@@ -36,7 +36,7 @@ body {
 
 .menu_button {
   position: relative;
-  min-width: calc(100%/10);
+  min-width: calc(100% /10);
   height: 100%;
 }
 
@@ -55,7 +55,7 @@ body {
 .icon_container img {
   position: relative;
   z-index: 1;
-  opacity: .3;
+  opacity: 0.3;
   zoom: 2;
   display: block;
   margin: auto;
@@ -98,16 +98,16 @@ body {
   padding: 0;
   margin: 0;
   border-right: #7b7777bd 1px solid;
-  height: calc(100%/1);
+  height: calc(100% /1);
   min-height: 27px;
   width: calc(100%/9);
-  min-width: calc(100%/9);
+  min-width: calc(100% /9);
 }
 
 .img_btn {
   position: relative;
   z-index: 1;
-  opacity: .3;
+  opacity: 0.3;
   zoom: 2;
   display: block;
   margin: auto;
@@ -271,7 +271,7 @@ body {
 
 .menu-footer-right {
   margin: auto;
-  margin-left: 0px;
+  margin-left: 0;
   width: fit-content;
   font-size: x-small;
 }
