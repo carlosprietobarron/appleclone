@@ -85,7 +85,7 @@
 .container {
 
   background: linear-gradient(#648880, #293f50);
-  /* background: linear-gradient(to left top,#648880 75%, #293f50); */
+  background: linear-gradient(#8b8b8b, #5e5e5e, #5e5e5e);
   width: 80%;
   min-width: 75%;
   margin: auto;
@@ -165,9 +165,15 @@
 .box8 .btn-icon {
   top: -203px;
 }
-
-.box9 .btn-icon {
-  top: -240px;
+.box9{
+  position: relative;
+  top: 10px;
+  display: block;
+  height: 14px;
+  overflow: hidden;
+}
+.box9 img {
+  width: 100px;
 }
 
 
