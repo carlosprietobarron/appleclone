@@ -4,6 +4,7 @@
   margin: auto;
   font: 1em sans-serif;
   background-color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #main_viewport {
@@ -228,3 +229,64 @@
 .promo4 {
   background-color: white;
   min-height: 100%;
+}
+
+.mainfooter {
+  display: grid;;
+  grid-template-columns: 1fr 1fr;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  line-height: 1.2;
+  font-size: smaller;
+}
+
+.menu-footer_left{
+  margin: auto;
+  padding-left: 160px;
+  width: fit-content;
+  font-size: x-small;
+}
+
+.menu-left{
+  width: fit-content;
+  list-style-type: none;
+  margin-left: -37px;
+  margin-top: 0;
+  float: left;
+}
+.menu-left li {
+  float: left;
+  padding-left: 3px;
+}
+
+.copyright{
+  margin-top: 0;
+  display: block;
+  float: left;
+}
+
+.menu-footer-right{
+  margin: auto;
+  padding-left: 160px;
+  width: fit-content;
+  font-size: x-small;
+}
+
+.menu-right{
+  width: fit-content;
+  list-style-type: none;
+  margin-left: -37px;
+  margin-top: 0;
+  float: left;
+}
+.menu-right li {
+  float: left;
+  padding-left: 3px;
+}
