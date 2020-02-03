@@ -36,7 +36,7 @@ body {
 
 .menu_button {
   position: relative;
-  min-width: calc(100% /10);
+  min-width: calc(100% / 10);
   height: 100%;
 }
 
