@@ -19,20 +19,7 @@ body {
   background-color: white;
 }
 
-/* .menu_navbar {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  box-sizing: border-box;
-  width: calc((100%/5) * 3);
-  min-width: 600px;
-  height: fit-content;
-  max-height: 30px;
-  margin: auto;
-  border-style: solid;
-  border-width: 1.2px;
-  border-radius: 2px;
-} */
+/* Menu Nav Bar */
 
 .menu_button {
   position: relative;
@@ -102,6 +89,10 @@ body {
   min-height: 27px;
   width: calc(100% / 9);
   min-width: calc(100% / 9);
+}
+
+.box:hover {
+  background: linear-gradient(#696868, #a7a3a3, #5e5e5e);
 }
 
 .img_btn {
@@ -302,6 +293,12 @@ body {
 .menu-right li {
   float: left;
   padding-left: 3px;
+}
+
+.menu-right-opt {
+  display: inline-block;
+  padding-left: 3px;
+  border-right: solid gray 1px;
 }
 
 /* eof */
