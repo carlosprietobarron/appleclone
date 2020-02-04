@@ -1,17 +1,17 @@
-# New York Times Article Page Clone
+# Apple.com Page Clone
 
-> This is the project for positioning and cloning a new york times article site-
+> This is the project for creating a site using gradients and backgrounds-
 
 ## Built With
 
 - HTML
 - fontawesome
 - CSS
-- Floats and Positioning
+- Graadients and Backgrounds
 
 ## Live Demo
 
-https://nytimespage.000webhostapp.com/
+
 
 
 ## Authors
@@ -20,10 +20,8 @@ https://nytimespage.000webhostapp.com/
 
 - Github: [@carlosprietobarron](https://github.com/carlosprietobarron)
 
-👤 **Ruben Paz Chuspe**
+👤 
 
-- Github: [@rubenpazch](https://github.com/rubenpazch)
-- Linkedin: [rubenpch](https://www.linkedin.com/in/rubenpch/)
 
 ## 🤝 Contributing
 
