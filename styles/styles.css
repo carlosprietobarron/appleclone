@@ -167,7 +167,7 @@ body {
 }
 
 .box9:hover {
-  background: linear-gradient(#5e5e5e,#8b8b8b, #5e5e5e);
+  background: linear-gradient(#5e5e5e, #8b8b8b, #5e5e5e);
 }
 
 .box9 img:hover {
@@ -197,9 +197,9 @@ body {
   overflow: hidden;
 }
 
-.watch-img:hover{
+.watch-img:hover {
   position: relative;
-  top: -29px;
+  top: -29 px;
 }
 
 /* promotions */
