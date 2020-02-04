@@ -19,7 +19,7 @@ body {
   background-color: white;
 }
 
-.menu_navbar {
+/* .menu_navbar {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -32,7 +32,7 @@ body {
   border-style: solid;
   border-width: 1.2px;
   border-radius: 2px;
-}
+} */
 
 .menu_button {
   position: relative;
@@ -75,7 +75,7 @@ body {
   vertical-align: -webkit-baseline-middle;
 }
 
-.container {
+.Nav-Bar {
   background: linear-gradient(#648880, #293f50);
   background: linear-gradient(#8b8b8b, #5e5e5e, #5e5e5e);
   width: 80%;
@@ -166,6 +166,16 @@ body {
   width: 100px;
 }
 
+.box9:hover {
+  background: linear-gradient(#5e5e5e,#8b8b8b, #5e5e5e);
+}
+
+.box9 img:hover {
+  width: 100px;
+  position: relative;
+  top: -15px;
+}
+
 /* header */
 
 .main-header {
@@ -185,6 +195,11 @@ body {
   display: block;
   height: 31px;
   overflow: hidden;
+}
+
+.watch-img:hover{
+  position: relative;
+  top: -29px;
 }
 
 /* promotions */
