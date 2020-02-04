@@ -170,7 +170,7 @@ body {
   background: linear-gradient(#5e5e5e, #8b8b8b, #5e5e5e);
 }
 
-.box9 img:hover {
+.globalsearch:hover {
   width: 100px;
   position: relative;
   top: -15px;
@@ -199,7 +199,7 @@ body {
 
 .watch-img:hover {
   position: relative;
-  top: -29 px;
+  top: -29px;
 }
 
 /* promotions */
